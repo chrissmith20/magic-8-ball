@@ -25,12 +25,20 @@ responses = [
 puts responses.length
 
 # Ask the user what their question is, and store it as a variable called `question`
+question = "What is your question?"
+user_question = " "
+puts question
+user_question = gets.chomp
 
 
 # Output a random response to the user's question
-
+print responses.sample
 
 # Output the number of responses that include the word "yes"
+
+# responses.include?("yes")
+puts responses
+
 
 
 # Output the number of responses that include the words "no" or "not"
